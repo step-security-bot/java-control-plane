@@ -4,3 +4,19 @@ updates:
   directory: /
   schedule:
     interval: daily
+- package-ecosystem: maven
+  directory: /
+  schedule:
+    interval: daily
+- package-ecosystem: maven
+  directory: /api
+  schedule:
+    interval: daily
+- package-ecosystem: maven
+  directory: /server
+  schedule:
+    interval: daily
+- package-ecosystem: maven
+  directory: /test
+  schedule:
+    interval: daily
