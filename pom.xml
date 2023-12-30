@@ -28,7 +28,7 @@
         <awaitility.version>3.1.6</awaitility.version>
         <checkstyle.version>8.18</checkstyle.version>
         <grpc.version>1.48.1</grpc.version>
-        <guava.version>31.1-android</guava.version><!-- Keep the Guava version in sync with grpc-java -->
+        <guava.version>33.0.0-android</guava.version><!-- Keep the Guava version in sync with grpc-java -->
         <junit.version>4.13.2</junit.version>
         <protobuf.version>3.21.5</protobuf.version><!-- Keep the Protobuf version in sync with grpc-java -->
         <rest-assured.version>3.1.0</rest-assured.version>
