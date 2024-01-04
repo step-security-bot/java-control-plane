@@ -7,10 +7,12 @@ on:
         required: true
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   update-protobuf:
     permissions:
-      contents: write
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
