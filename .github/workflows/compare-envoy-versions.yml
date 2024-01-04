@@ -15,6 +15,11 @@ jobs:
     outputs:
       target-version: ${{ steps.compare-latest-to-current-version.outputs.target-version }}
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+        with:
+          egress-policy: audit
+
       - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5  # v2.7.0
       - name: Fetch latest Envoy version
         id: latest-envoy-version
